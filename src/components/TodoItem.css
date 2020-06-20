@@ -1,0 +1,30 @@
+/** @format */
+
+.TodoItem {
+	display: flex;
+	flex-direction: row;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 200;
+	font-size: 35px;
+	color: blueviolet;
+	border-bottom: 1px solid lightgrey;
+	margin-left: 10px;
+	height: 60px;
+	position: relative;
+}
+.TodoItem-complete {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+.TodoItem > p {
+	margin: 10px;
+}
+.deleteIcon {
+	position: absolute;
+	left: 355px;
+	top: 15px;
+	display: none;
+}
+.TodoItem:hover .deleteIcon {
+	display: block;
+}

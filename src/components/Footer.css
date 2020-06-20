@@ -1,0 +1,24 @@
+/** @format */
+
+.Footer {
+	display: flex;
+	flex-direction: row;
+}
+.Footer > p {
+	margin-left: 10px;
+	display: inline;
+	color: #808080;
+}
+/* .Footer > button {
+    height: 30px;
+    color: violet;
+} */
+.btnFooter {
+	width: 75%;
+	flex-direction: row-reverse;
+	display: flex;
+	align-items: center;
+}
+.btnFooter > button {
+	margin-left: 5px;
+}
